@@ -1,0 +1,47 @@
+{
+  "coord": {
+    "lon": 106.3398,
+    "lat": 9.9356
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "mưa nhẹ",
+      "icon": "10n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.12,
+    "feels_like": 26.12,
+    "temp_min": 25.12,
+    "temp_max": 25.12,
+    "pressure": 1007,
+    "humidity": 93,
+    "sea_level": 1007,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.91,
+    "deg": 229,
+    "gust": 2.37
+  },
+  "rain": {
+    "1h": 0.11
+  },
+  "clouds": {
+    "all": 89
+  },
+  "dt": 1762344030,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296357,
+    "sunset": 1762338628
+  },
+  "timezone": 25200,
+  "id": 1587976,
+  "name": "Trà Vinh",
+  "cod": 200
+}

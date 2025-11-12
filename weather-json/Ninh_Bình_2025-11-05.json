@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.9765,
+    "lat": 20.2545
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 20.99,
+    "feels_like": 21.31,
+    "temp_min": 20.99,
+    "temp_max": 20.99,
+    "pressure": 1012,
+    "humidity": 83,
+    "sea_level": 1012,
+    "grnd_level": 1010
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.25,
+    "deg": 63,
+    "gust": 1.42
+  },
+  "clouds": {
+    "all": 90
+  },
+  "dt": 1762343957,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297181,
+    "sunset": 1762337978
+  },
+  "timezone": 25200,
+  "id": 1573517,
+  "name": "Ninh Bình",
+  "cod": 200
+}

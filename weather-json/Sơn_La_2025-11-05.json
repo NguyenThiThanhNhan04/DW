@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 103.9005,
+    "lat": 21.3283
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "mây cụm",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 19.61,
+    "feels_like": 19.98,
+    "temp_min": 19.61,
+    "temp_max": 19.61,
+    "pressure": 1011,
+    "humidity": 90,
+    "sea_level": 1011,
+    "grnd_level": 929
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.03,
+    "deg": 144,
+    "gust": 1.11
+  },
+  "clouds": {
+    "all": 67
+  },
+  "dt": 1762343958,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297761,
+    "sunset": 1762338395
+  },
+  "timezone": 25200,
+  "id": 1567681,
+  "name": "Sơn La",
+  "cod": 200
+}

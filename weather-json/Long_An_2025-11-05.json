@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 106.1667,
+    "lat": 10.6667
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.49,
+    "feels_like": 26.52,
+    "temp_min": 25.49,
+    "temp_max": 25.49,
+    "pressure": 1007,
+    "humidity": 93,
+    "sea_level": 1007,
+    "grnd_level": 1007
+  },
+  "visibility": 5915,
+  "wind": {
+    "speed": 1.17,
+    "deg": 224,
+    "gust": 1.32
+  },
+  "clouds": {
+    "all": 98
+  },
+  "dt": 1762343957,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296449,
+    "sunset": 1762338619
+  },
+  "timezone": 25200,
+  "id": 1575788,
+  "name": "Long An",
+  "cod": 200
+}

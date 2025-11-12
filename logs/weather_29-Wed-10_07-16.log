@@ -1,0 +1,91 @@
+19:16:23.599 | INFO    | Flow run 'romantic-sawfish' - Beginning flow run 'romantic-sawfish' for flow 'Weather-63-Tinh-Flow'
+19:16:23.603 | INFO    | Flow run 'romantic-sawfish' - View at http://127.0.0.1:4200/runs/flow-run/9a9ff782-c0f1-4f3b-92fb-bfe1202bdd65
+19:16:24.384 | INFO    | Task run 'get_weather-40f' - Finished in state Completed()
+19:16:25.102 | INFO    | Task run 'get_weather-571' - Finished in state Completed()
+19:16:25.711 | INFO    | Task run 'get_weather-933' - Finished in state Completed()
+19:16:26.305 | INFO    | Task run 'get_weather-088' - Finished in state Completed()
+19:16:26.884 | INFO    | Task run 'get_weather-e07' - Finished in state Completed()
+19:16:27.508 | INFO    | Task run 'get_weather-e17' - Finished in state Completed()
+19:16:28.103 | INFO    | Task run 'get_weather-393' - Finished in state Completed()
+19:16:28.727 | INFO    | Task run 'get_weather-03b' - Finished in state Completed()
+19:16:29.346 | INFO    | Task run 'get_weather-b3e' - Finished in state Completed()
+19:16:29.962 | INFO    | Task run 'get_weather-e9c' - Finished in state Completed()
+19:16:31.646 | INFO    | Task run 'get_weather-bbc' - Finished in state Completed()
+19:16:32.258 | INFO    | Task run 'get_weather-1db' - Finished in state Completed()
+19:16:32.868 | INFO    | Task run 'get_weather-1bd' - Finished in state Completed()
+19:16:33.477 | INFO    | Task run 'get_weather-fd1' - Finished in state Completed()
+19:16:34.156 | INFO    | Task run 'get_weather-294' - Finished in state Completed()
+19:16:34.743 | INFO    | Task run 'get_weather-868' - Finished in state Completed()
+19:16:35.362 | INFO    | Task run 'get_weather-805' - Finished in state Completed()
+19:16:35.977 | INFO    | Task run 'get_weather-798' - Finished in state Completed()
+19:16:36.602 | INFO    | Task run 'get_weather-7c2' - Finished in state Completed()
+19:16:37.216 | INFO    | Task run 'get_weather-e30' - Finished in state Completed()
+19:16:37.822 | INFO    | Task run 'get_weather-e86' - Finished in state Completed()
+19:16:38.415 | INFO    | Task run 'get_weather-46c' - Finished in state Completed()
+19:16:39.008 | INFO    | Task run 'get_weather-876' - Finished in state Completed()
+19:16:39.618 | INFO    | Task run 'get_weather-ebd' - Finished in state Completed()
+19:16:40.228 | INFO    | Task run 'get_weather-d29' - Finished in state Completed()
+19:16:40.868 | INFO    | Task run 'get_weather-821' - Finished in state Completed()
+19:16:41.477 | INFO    | Task run 'get_weather-a09' - Finished in state Completed()
+19:16:42.086 | INFO    | Task run 'get_weather-e08' - Finished in state Completed()
+19:16:42.711 | INFO    | Task run 'get_weather-ef0' - Finished in state Completed()
+19:16:43.383 | INFO    | Task run 'get_weather-d3f' - Finished in state Completed()
+19:16:44.181 | INFO    | Task run 'get_weather-a58' - Finished in state Completed()
+19:16:44.853 | INFO    | Task run 'get_weather-3db' - Finished in state Completed()
+19:16:45.493 | INFO    | Task run 'get_weather-6ab' - Finished in state Completed()
+19:16:46.104 | INFO    | Task run 'get_weather-8fa' - Finished in state Completed()
+19:16:46.727 | INFO    | Task run 'get_weather-59f' - Finished in state Completed()
+19:16:47.555 | INFO    | Task run 'get_weather-82f' - Finished in state Completed()
+19:16:49.274 | INFO    | Task run 'get_weather-140' - Finished in state Completed()
+19:16:49.890 | INFO    | Task run 'get_weather-f03' - Finished in state Completed()
+19:16:50.680 | INFO    | Task run 'get_weather-1de' - Finished in state Completed()
+19:16:51.289 | INFO    | Task run 'get_weather-c09' - Finished in state Completed()
+19:16:51.907 | INFO    | Task run 'get_weather-c74' - Finished in state Completed()
+19:16:52.665 | INFO    | Task run 'get_weather-2ec' - Finished in state Completed()
+19:16:53.442 | INFO    | Task run 'get_weather-e9b' - Finished in state Completed()
+19:16:54.259 | INFO    | Task run 'get_weather-ec0' - Finished in state Completed()
+19:16:54.852 | INFO    | Task run 'get_weather-f8d' - Finished in state Completed()
+19:16:55.483 | INFO    | Task run 'get_weather-a40' - Finished in state Completed()
+19:16:56.102 | INFO    | Task run 'get_weather-1b0' - Finished in state Completed()
+19:16:56.712 | INFO    | Task run 'get_weather-3f4' - Finished in state Completed()
+19:16:57.419 | INFO    | Task run 'get_weather-863' - Finished in state Completed()
+19:16:58.025 | INFO    | Task run 'get_weather-5fe' - Finished in state Completed()
+19:16:58.612 | INFO    | Task run 'get_weather-064' - Finished in state Completed()
+19:16:59.390 | INFO    | Task run 'get_weather-7eb' - Finished in state Completed()
+19:17:00.005 | INFO    | Task run 'get_weather-892' - Finished in state Completed()
+19:17:00.603 | INFO    | Task run 'get_weather-57f' - Finished in state Completed()
+19:17:01.252 | INFO    | Task run 'get_weather-f64' - Finished in state Completed()
+19:17:02.196 | INFO    | Task run 'get_weather-3b1' - Finished in state Completed()
+19:17:02.846 | INFO    | Task run 'get_weather-822' - Finished in state Completed()
+19:17:03.682 | INFO    | Task run 'get_weather-2fc' - Finished in state Completed()
+19:17:05.368 | INFO    | Task run 'get_weather-f37' - Finished in state Completed()
+19:17:06.343 | INFO    | Task run 'get_weather-174' - Finished in state Completed()
+19:17:07.007 | INFO    | Task run 'get_weather-f4b' - Finished in state Completed()
+19:17:07.616 | INFO    | Task run 'get_weather-131' - Finished in state Completed()
+19:17:08.291 | INFO    | Task run 'get_weather-962' - Finished in state Completed()
+19:17:08.850 | INFO    | Task run 'save_csv-99b' - Finished in state Completed()
+19:17:08.889 | INFO    | Flow run 'romantic-sawfish' - Finished in state Completed()
+[CẢNH BÁO] Không có dữ liệu cho Điện Biên: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Quảng Ninh: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Hải Dương: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Nghệ An: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Quảng Bình: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Thừa Thiên Huế: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Quảng Nam: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Phú Yên: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Ninh Thuận: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Bình Thuận: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Đắk Lắk: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Đắk Nông: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Lâm Đồng: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Bình Phước: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Đồng Nai: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Bà Rịa – Vũng Tàu: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Hồ Chí Minh: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Tiền Giang: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Đồng Tháp: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Kiên Giang: {'cod': '404', 'message': 'city not found'}
+[CẢNH BÁO] Không có dữ liệu cho Hậu Giang: {'cod': '404', 'message': 'city not found'}
+[INFO] Đã lưu 42 bản ghi vào file: weather_data_20251029_191708.csv
+[INFO] Hoàn tất lấy dữ liệu tất cả 63 tỉnh/thành.
+[INFO] File kết quả: weather_data_20251029_191708.csv

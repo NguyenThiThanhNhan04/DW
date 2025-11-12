@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": 106.6822,
+    "lat": 20.8561
+  },
+  "weather": [
+    {
+      "id": 701,
+      "main": "Mist",
+      "description": "sương mờ",
+      "icon": "50n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 19.95,
+    "feels_like": 20.61,
+    "temp_min": 19.95,
+    "temp_max": 19.95,
+    "pressure": 1012,
+    "humidity": 100,
+    "sea_level": 1012,
+    "grnd_level": 1011
+  },
+  "visibility": 5000,
+  "wind": {
+    "speed": 0.51,
+    "deg": 320
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762343895,
+  "sys": {
+    "type": 1,
+    "id": 9302,
+    "country": "VN",
+    "sunrise": 1762297057,
+    "sunset": 1762337763
+  },
+  "timezone": 25200,
+  "id": 1581298,
+  "name": "Hải Phòng",
+  "cod": 200
+}

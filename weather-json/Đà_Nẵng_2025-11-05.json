@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": 108.2208,
+    "lat": 16.0678
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "mây cụm",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 23.99,
+    "feels_like": 24.74,
+    "temp_min": 23.99,
+    "temp_max": 23.99,
+    "pressure": 1010,
+    "humidity": 88,
+    "sea_level": 1010,
+    "grnd_level": 1005
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.12,
+    "deg": 330
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1762343868,
+  "sys": {
+    "type": 1,
+    "id": 9306,
+    "country": "VN",
+    "sunrise": 1762296335,
+    "sunset": 1762337747
+  },
+  "timezone": 25200,
+  "id": 1583992,
+  "name": "Đà Nẵng",
+  "cod": 200
+}

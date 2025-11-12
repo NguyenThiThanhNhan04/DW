@@ -1,0 +1,48 @@
+{
+  "coord": {
+    "lon": 105.7833,
+    "lat": 10.0333
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "mưa nhẹ",
+      "icon": "10n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 27.99,
+    "feels_like": 33.54,
+    "temp_min": 27.99,
+    "temp_max": 27.99,
+    "pressure": 1007,
+    "humidity": 89,
+    "sea_level": 1007,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.54,
+    "deg": 0
+  },
+  "rain": {
+    "1h": 0.32
+  },
+  "clouds": {
+    "all": 40
+  },
+  "dt": 1762343998,
+  "sys": {
+    "type": 1,
+    "id": 9305,
+    "country": "VN",
+    "sunrise": 1762296497,
+    "sunset": 1762338755
+  },
+  "timezone": 25200,
+  "id": 1586203,
+  "name": "Cần Thơ",
+  "cod": 200
+}

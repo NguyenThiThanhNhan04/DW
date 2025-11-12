@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.9019,
+    "lat": 18.3453
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 21.74,
+    "feels_like": 22.27,
+    "temp_min": 21.74,
+    "temp_max": 21.74,
+    "pressure": 1012,
+    "humidity": 88,
+    "sea_level": 1012,
+    "grnd_level": 1010
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.85,
+    "deg": 320,
+    "gust": 2.6
+  },
+  "clouds": {
+    "all": 99
+  },
+  "dt": 1762343724,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297057,
+    "sunset": 1762338138
+  },
+  "timezone": 25200,
+  "id": 1581047,
+  "name": "Hà Tĩnh",
+  "cod": 200
+}

@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": 112.5603,
+    "lat": 37.8694
+  },
+  "weather": [
+    {
+      "id": 721,
+      "main": "Haze",
+      "description": "đám mây",
+      "icon": "50n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 12.92,
+    "feels_like": 11.89,
+    "temp_min": 12.92,
+    "temp_max": 12.92,
+    "pressure": 1019,
+    "humidity": 62,
+    "sea_level": 1019,
+    "grnd_level": 914
+  },
+  "visibility": 4000,
+  "wind": {
+    "speed": 1,
+    "deg": 0
+  },
+  "clouds": {
+    "all": 99
+  },
+  "dt": 1762343958,
+  "sys": {
+    "type": 1,
+    "id": 9616,
+    "country": "CN",
+    "sunrise": 1762297148,
+    "sunset": 1762334851
+  },
+  "timezone": 28800,
+  "id": 1793511,
+  "name": "Thái Nguyên",
+  "cod": 200
+}

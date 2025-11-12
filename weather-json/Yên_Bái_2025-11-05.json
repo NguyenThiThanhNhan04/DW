@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 104.8714,
+    "lat": 21.7026
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "mây rải rác",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 21.19,
+    "feels_like": 21.51,
+    "temp_min": 21.19,
+    "temp_max": 21.19,
+    "pressure": 1012,
+    "humidity": 82,
+    "sea_level": 1012,
+    "grnd_level": 994
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.77,
+    "deg": 147,
+    "gust": 2.89
+  },
+  "clouds": {
+    "all": 26
+  },
+  "dt": 1762343958,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297556,
+    "sunset": 1762338133
+  },
+  "timezone": 25200,
+  "id": 1560349,
+  "name": "Yên Bái",
+  "cod": 200
+}

@@ -1,0 +1,47 @@
+{
+  "coord": {
+    "lon": 105.9715,
+    "lat": 9.6081
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "mưa nhẹ",
+      "icon": "10n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 24.46,
+    "feels_like": 25.36,
+    "temp_min": 24.46,
+    "temp_max": 24.46,
+    "pressure": 1008,
+    "humidity": 92,
+    "sea_level": 1008,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.65,
+    "deg": 264,
+    "gust": 1.82
+  },
+  "rain": {
+    "1h": 0.71
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762343958,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296423,
+    "sunset": 1762338739
+  },
+  "timezone": 25200,
+  "id": 1567788,
+  "name": "Sóc Trăng",
+  "cod": 200
+}

@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.1903,
+    "lat": 10.6765
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.81,
+    "feels_like": 26.69,
+    "temp_min": 25.81,
+    "temp_max": 25.81,
+    "pressure": 1007,
+    "humidity": 86,
+    "sea_level": 1007,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.56,
+    "deg": 211,
+    "gust": 3.65
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762344010,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296684,
+    "sunset": 1762338853
+  },
+  "timezone": 25200,
+  "id": 1585660,
+  "name": "Khánh Hòa",
+  "cod": 200
+}

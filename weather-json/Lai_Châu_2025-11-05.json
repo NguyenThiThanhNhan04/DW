@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 103.4517,
+    "lat": 22.3997
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "mây rải rác",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 16.4,
+    "feels_like": 16.52,
+    "temp_min": 16.4,
+    "temp_max": 16.4,
+    "pressure": 1012,
+    "humidity": 93,
+    "sea_level": 1012,
+    "grnd_level": 889
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.58,
+    "deg": 89,
+    "gust": 1.18
+  },
+  "clouds": {
+    "all": 31
+  },
+  "dt": 1762343973,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297951,
+    "sunset": 1762338420
+  },
+  "timezone": 25200,
+  "id": 1570815,
+  "name": "Lai Chau",
+  "cod": 200
+}

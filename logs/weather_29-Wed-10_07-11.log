@@ -1,0 +1,255 @@
+19:11:23.758 | INFO    | Flow run 'gentle-bettong' - Beginning flow run 'gentle-bettong' for flow 'Weather-63-Tinh-Flow'
+19:11:23.774 | INFO    | Flow run 'gentle-bettong' - View at http://127.0.0.1:4200/runs/flow-run/d611f2c1-86a9-4571-8fd6-4c186dad07a9
+19:11:24.603 | INFO    | Task run 'get_weather-850' - Finished in state Completed()
+19:11:25.278 | INFO    | Task run 'get_weather-76a' - Finished in state Completed()
+19:11:25.884 | INFO    | Task run 'get_weather-51a' - Finished in state Completed()
+19:11:26.493 | INFO    | Task run 'get_weather-e10' - Finished in state Completed()
+19:11:27.118 | INFO    | Task run 'get_weather-422' - Finished in state Completed()
+19:11:27.712 | INFO    | Task run 'get_weather-fbd' - Finished in state Completed()
+19:11:28.337 | INFO    | Task run 'get_weather-cef' - Finished in state Completed()
+19:11:29.120 | ERROR   | Task run 'get_weather-fc1' - Task run failed with exception: UnicodeEncodeError('charmap', "\u274c L\u1ed7i khi l\u1ea5y d\u1eef li\u1ec7u \u0110i\u1ec7n Bi�n: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>", 0, 1, 'character maps to <undefined>')
+Traceback (most recent call last):
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 50, in get_weather
+    print(f"\u26a0\ufe0f Kh�ng c� d\u1eef li\u1ec7u cho {city}: {res}")
+  File "C:\Users\Phu\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 872, in run_context
+    yield self
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1514, in run_task_sync
+    engine.call_task_fn(txn)
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 889, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\utilities\callables.py", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 52, in get_weather
+    print(f"\u274c L\u1ed7i khi l\u1ea5y d\u1eef li\u1ec7u {city}: {e}")
+  File "C:\Users\Phu\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+19:11:29.151 | ERROR   | Task run 'get_weather-fc1' - Finished in state Failed("Task run encountered an exception UnicodeEncodeError: 'charmap' codec can't encode character '\\u274c' in position 0: character maps to <undefined>")
+19:11:29.151 | ERROR   | Flow run 'gentle-bettong' - Encountered exception during execution: UnicodeEncodeError('charmap', "\u274c L\u1ed7i khi l\u1ea5y d\u1eef li\u1ec7u \u0110i\u1ec7n Bi�n: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>", 0, 1, 'character maps to <undefined>')
+Traceback (most recent call last):
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 50, in get_weather
+    print(f"\u26a0\ufe0f Kh�ng c� d\u1eef li\u1ec7u cho {city}: {res}")
+  File "C:\Users\Phu\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 788, in run_context
+    yield self
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 1409, in run_flow_sync
+    engine.call_flow_fn()
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 808, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\utilities\callables.py", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 87, in weather_flow
+    data = get_weather(city)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\tasks.py", line 1138, in __call__
+    return run_task(
+           ^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1741, in run_task
+    return run_task_sync(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1516, in run_task_sync
+    return engine.state if return_type == "state" else engine.result()
+                                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 493, in result
+    raise self._raised
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 872, in run_context
+    yield self
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1514, in run_task_sync
+    engine.call_task_fn(txn)
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 889, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\utilities\callables.py", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 52, in get_weather
+    print(f"\u274c L\u1ed7i khi l\u1ea5y d\u1eef li\u1ec7u {city}: {e}")
+  File "C:\Users\Phu\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+19:11:29.219 | INFO    | Flow run 'gentle-bettong' - Finished in state Failed("Flow run encountered an exception: UnicodeEncodeError: 'charmap' codec can't encode character '\\u274c' in position 0: character maps to <undefined>")
+Traceback (most recent call last):
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 50, in get_weather
+    print(f"\u26a0\ufe0f Kh�ng c� d\u1eef li\u1ec7u cho {city}: {res}")
+  File "C:\Users\Phu\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 98, in <module>
+    weather_flow()
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flows.py", line 1708, in __call__
+    return run_flow(
+           ^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 1566, in run_flow
+    ret_val = run_flow_sync(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 1411, in run_flow_sync
+    return engine.state if return_type == "state" else engine.result()
+                                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 361, in result
+    raise self._raised
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 788, in run_context
+    yield self
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 1409, in run_flow_sync
+    engine.call_flow_fn()
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\flow_engine.py", line 808, in call_flow_fn
+    result = call_with_parameters(self.flow.fn, self.parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\utilities\callables.py", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 87, in weather_flow
+    data = get_weather(city)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\tasks.py", line 1138, in __call__
+    return run_task(
+           ^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1741, in run_task
+    return run_task_sync(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1516, in run_task_sync
+    return engine.state if return_type == "state" else engine.result()
+                                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 493, in result
+    raise self._raised
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 872, in run_context
+    yield self
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 1514, in run_task_sync
+    engine.call_task_fn(txn)
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\task_engine.py", line 889, in call_task_fn
+    result = call_with_parameters(self.task.fn, parameters)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\airflow_env\Lib\site-packages\prefect\utilities\callables.py", line 210, in call_with_parameters
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Phu\Documents\DW\weather_vn_flow.py", line 52, in get_weather
+    print(f"\u274c L\u1ed7i khi l\u1ea5y d\u1eef li\u1ec7u {city}: {e}")
+  File "C:\Users\Phu\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+
+--- WEATHER FLOW LOG 2025-11-05 20:59:51 ---
+Start Time: 2025-11-05 20:59:01.449135
+End Time: 2025-11-05 20:59:51.253091
+Total Records: 42, Failed Records: 21
+Failed Cities:
+Điện Biên: Không có dữ liệu cho Điện Biên
+Quảng Ninh: Không có dữ liệu cho Quảng Ninh
+Hải Dương: Không có dữ liệu cho Hải Dương
+Nghệ An: Không có dữ liệu cho Nghệ An
+Quảng Bình: Không có dữ liệu cho Quảng Bình
+Thừa Thiên Huế: Không có dữ liệu cho Thừa Thiên Huế
+Quảng Nam: Không có dữ liệu cho Quảng Nam
+Phú Yên: Không có dữ liệu cho Phú Yên
+Ninh Thuận: Không có dữ liệu cho Ninh Thuận
+Bình Thuận: Không có dữ liệu cho Bình Thuận
+Đắk Lắk: Không có dữ liệu cho Đắk Lắk
+Đắk Nông: Không có dữ liệu cho Đắk Nông
+Lâm Đồng: Không có dữ liệu cho Lâm Đồng
+Bình Phước: Không có dữ liệu cho Bình Phước
+Đồng Nai: Không có dữ liệu cho Đồng Nai
+Bà Rịa – Vũng Tàu: Không có dữ liệu cho Bà Rịa – Vũng Tàu
+Hồ Chí Minh: Không có dữ liệu cho Hồ Chí Minh
+Tiền Giang: Không có dữ liệu cho Tiền Giang
+Đồng Tháp: Không có dữ liệu cho Đồng Tháp
+Kiên Giang: Không có dữ liệu cho Kiên Giang
+Hậu Giang: Không có dữ liệu cho Hậu Giang
+----------------------------------------------------
+
+--- WEATHER FLOW LOG 2025-11-05 21:06:01.677497 ---
+Start Time: 2025-11-05 21:05:09.741312
+End Time: 2025-11-05 21:06:01.001559
+Hà Nội - SUCCESS
+
+--- WEATHER FLOW LOG 2025-11-05 21:09:18.973144 ---
+Start Time: 2025-11-05 21:08:23.813511
+End Time: 2025-11-05 21:09:18.288103
+Hà Nội - SUCCESS
+Hải Phòng - SUCCESS
+Hà Giang - SUCCESS
+Cao Bằng - SUCCESS
+Bắc Kạn - SUCCESS
+Tuyên Quang - SUCCESS
+Lào Cai - SUCCESS
+Điện Biên - FAILED: Không có dữ liệu cho Điện Biên
+Lai Châu - SUCCESS
+Sơn La - SUCCESS
+Yên Bái - SUCCESS
+Hòa Bình - SUCCESS
+Thái Nguyên - SUCCESS
+Lạng Sơn - SUCCESS
+Quảng Ninh - FAILED: Không có dữ liệu cho Quảng Ninh
+Bắc Giang - SUCCESS
+Phú Thọ - SUCCESS
+Vĩnh Phúc - SUCCESS
+Bắc Ninh - SUCCESS
+Hải Dương - FAILED: Không có dữ liệu cho Hải Dương
+Hưng Yên - SUCCESS
+Thái Bình - SUCCESS
+Hà Nam - SUCCESS
+Nam Định - SUCCESS
+Ninh Bình - SUCCESS
+Thanh Hóa - SUCCESS
+Nghệ An - FAILED: Không có dữ liệu cho Nghệ An
+Hà Tĩnh - SUCCESS
+Quảng Bình - FAILED: Không có dữ liệu cho Quảng Bình
+Quảng Trị - SUCCESS
+Thừa Thiên Huế - FAILED: Không có dữ liệu cho Thừa Thiên Huế
+Đà Nẵng - SUCCESS
+Quảng Nam - FAILED: Không có dữ liệu cho Quảng Nam
+Quảng Ngãi - SUCCESS
+Bình Định - SUCCESS
+Phú Yên - FAILED: Không có dữ liệu cho Phú Yên
+Khánh Hòa - SUCCESS
+Ninh Thuận - FAILED: Không có dữ liệu cho Ninh Thuận
+Bình Thuận - FAILED: Không có dữ liệu cho Bình Thuận
+Kon Tum - SUCCESS
+Gia Lai - SUCCESS
+Đắk Lắk - FAILED: Không có dữ liệu cho Đắk Lắk
+Đắk Nông - FAILED: Không có dữ liệu cho Đắk Nông
+Lâm Đồng - FAILED: Không có dữ liệu cho Lâm Đồng
+Bình Phước - FAILED: Không có dữ liệu cho Bình Phước
+Tây Ninh - SUCCESS
+Bình Dương - SUCCESS
+Đồng Nai - FAILED: Không có dữ liệu cho Đồng Nai
+Bà Rịa – Vũng Tàu - FAILED: Không có dữ liệu cho Bà Rịa – Vũng Tàu
+Hồ Chí Minh - FAILED: Không có dữ liệu cho Hồ Chí Minh
+Long An - SUCCESS
+Tiền Giang - FAILED: Không có dữ liệu cho Tiền Giang
+Bến Tre - SUCCESS
+Trà Vinh - SUCCESS
+Vĩnh Long - SUCCESS
+Đồng Tháp - FAILED: Không có dữ liệu cho Đồng Tháp
+An Giang - SUCCESS
+Kiên Giang - FAILED: Không có dữ liệu cho Kiên Giang
+Cần Thơ - SUCCESS
+Hậu Giang - FAILED: Không có dữ liệu cho Hậu Giang
+Sóc Trăng - SUCCESS
+Bạc Liêu - SUCCESS
+Cà Mau - SUCCESS

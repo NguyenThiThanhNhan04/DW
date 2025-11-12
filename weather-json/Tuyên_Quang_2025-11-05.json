@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.2181,
+    "lat": 21.8233
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "mây rải rác",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 20.93,
+    "feels_like": 21.22,
+    "temp_min": 20.93,
+    "temp_max": 20.93,
+    "pressure": 1012,
+    "humidity": 82,
+    "sea_level": 1012,
+    "grnd_level": 999
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.94,
+    "deg": 146,
+    "gust": 1.15
+  },
+  "clouds": {
+    "all": 37
+  },
+  "dt": 1762343973,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297482,
+    "sunset": 1762338041
+  },
+  "timezone": 25200,
+  "id": 1563287,
+  "name": "Tuyên Quang",
+  "cod": 200
+}

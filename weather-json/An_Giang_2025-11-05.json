@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.1667,
+    "lat": 10.5
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.28,
+    "feels_like": 26.21,
+    "temp_min": 25.28,
+    "temp_max": 25.28,
+    "pressure": 1007,
+    "humidity": 90,
+    "sea_level": 1007,
+    "grnd_level": 1006
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.35,
+    "deg": 200,
+    "gust": 3.04
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762344033,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296677,
+    "sunset": 1762338871
+  },
+  "timezone": 25200,
+  "id": 1594446,
+  "name": "An Giang",
+  "cod": 200
+}

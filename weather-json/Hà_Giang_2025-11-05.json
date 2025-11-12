@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 104.9866,
+    "lat": 22.8274
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "mây cụm",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 21.58,
+    "feels_like": 22.04,
+    "temp_min": 21.58,
+    "temp_max": 21.58,
+    "pressure": 1012,
+    "humidity": 86,
+    "sea_level": 1012,
+    "grnd_level": 939
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.02,
+    "deg": 195,
+    "gust": 1.12
+  },
+  "clouds": {
+    "all": 84
+  },
+  "dt": 1762343970,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297616,
+    "sunset": 1762338019
+  },
+  "timezone": 25200,
+  "id": 1581349,
+  "name": "Ha Giang",
+  "cod": 200
+}

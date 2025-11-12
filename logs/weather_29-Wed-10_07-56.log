@@ -1,0 +1,9 @@
+19:56:45.855 | INFO    | Flow run 'wise-tapir' - Beginning flow run 'wise-tapir' for flow 'Weather-63-Tinh-Flow'
+19:56:45.866 | INFO    | Flow run 'wise-tapir' - View at http://127.0.0.1:4200/runs/flow-run/6d56b3e1-03da-4e1f-813e-5812b7dc8dd9
+19:56:46.881 | INFO    | Task run 'get_weather-658' - Finished in state Completed()
+19:56:47.624 | INFO    | Task run 'save_csv-edd' - Finished in state Completed()
+19:56:47.676 | INFO    | Flow run 'wise-tapir' - Finished in state Completed()
+[CẢNH BÁO] Không có dữ liệu cho : {'cod': 401, 'message': 'Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.'}
+[CẢNH BÁO] Không có dữ liệu để lưu.
+[INFO] Hoàn tất lấy dữ liệu tất cả 63 tỉnh/thành.
+[INFO] File kết quả: None

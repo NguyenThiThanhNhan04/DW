@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 101.7667,
+    "lat": 36.6167
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 7.28,
+    "feels_like": 7.28,
+    "temp_min": 7.28,
+    "temp_max": 7.28,
+    "pressure": 1007,
+    "humidity": 79,
+    "sea_level": 1007,
+    "grnd_level": 745
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.29,
+    "deg": 104,
+    "gust": 2.43
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762344012,
+  "sys": {
+    "country": "CN",
+    "sunrise": 1762299609,
+    "sunset": 1762337571
+  },
+  "timezone": 28800,
+  "id": 1788852,
+  "name": "Tây Ninh",
+  "cod": 200
+}

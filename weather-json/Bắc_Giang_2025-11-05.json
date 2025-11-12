@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 106.1939,
+    "lat": 21.2779
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 20.37,
+    "feels_like": 20.66,
+    "temp_min": 20.37,
+    "temp_max": 20.37,
+    "pressure": 1012,
+    "humidity": 84,
+    "sea_level": 1012,
+    "grnd_level": 1012
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.68,
+    "deg": 60,
+    "gust": 2.29
+  },
+  "clouds": {
+    "all": 90
+  },
+  "dt": 1762343985,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297206,
+    "sunset": 1762337849
+  },
+  "timezone": 25200,
+  "id": 1591527,
+  "name": "Bắc Giang",
+  "cod": 200
+}

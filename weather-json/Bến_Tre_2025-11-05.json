@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 106.3735,
+    "lat": 10.2448
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 24.83,
+    "feels_like": 25.88,
+    "temp_min": 24.83,
+    "temp_max": 24.83,
+    "pressure": 1007,
+    "humidity": 96,
+    "sea_level": 1007,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.46,
+    "deg": 211,
+    "gust": 3.29
+  },
+  "clouds": {
+    "all": 96
+  },
+  "dt": 1762343986,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296370,
+    "sunset": 1762338599
+  },
+  "timezone": 25200,
+  "id": 1587976,
+  "name": "Ben Tre",
+  "cod": 200
+}

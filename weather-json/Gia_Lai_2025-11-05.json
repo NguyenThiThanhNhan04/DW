@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 108.25,
+    "lat": 13.75
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 21.55,
+    "feels_like": 22.24,
+    "temp_min": 21.55,
+    "temp_max": 21.55,
+    "pressure": 1009,
+    "humidity": 95,
+    "sea_level": 1009,
+    "grnd_level": 958
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.23,
+    "deg": 54,
+    "gust": 2.03
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762343731,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296163,
+    "sunset": 1762337905
+  },
+  "timezone": 25200,
+  "id": 1581088,
+  "name": "Gia Lai",
+  "cod": 200
+}

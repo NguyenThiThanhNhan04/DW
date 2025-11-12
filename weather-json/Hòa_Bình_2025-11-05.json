@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.3453,
+    "lat": 20.813
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "mây rải rác",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 19.82,
+    "feels_like": 20.1,
+    "temp_min": 19.82,
+    "temp_max": 19.82,
+    "pressure": 1012,
+    "humidity": 86,
+    "sea_level": 1012,
+    "grnd_level": 981
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.93,
+    "deg": 115,
+    "gust": 0.69
+  },
+  "clouds": {
+    "all": 46
+  },
+  "dt": 1762343969,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297375,
+    "sunset": 1762338088
+  },
+  "timezone": 25200,
+  "id": 1580830,
+  "name": "Hòa Bình",
+  "cod": 200
+}

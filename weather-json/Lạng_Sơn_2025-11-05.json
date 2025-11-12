@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 106.7662,
+    "lat": 21.8505
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 16.72,
+    "feels_like": 16.93,
+    "temp_min": 16.72,
+    "temp_max": 16.72,
+    "pressure": 1013,
+    "humidity": 95,
+    "sea_level": 1013,
+    "grnd_level": 968
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.28,
+    "deg": 25,
+    "gust": 1.31
+  },
+  "clouds": {
+    "all": 95
+  },
+  "dt": 1762343983,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297113,
+    "sunset": 1762337667
+  },
+  "timezone": 25200,
+  "id": 1576633,
+  "name": "Lạng Sơn",
+  "cod": 200
+}

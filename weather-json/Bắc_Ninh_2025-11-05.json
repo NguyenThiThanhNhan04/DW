@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": 106.05,
+    "lat": 21.1833
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "mây cụm",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 22.05,
+    "feels_like": 22.5,
+    "temp_min": 22.05,
+    "temp_max": 22.05,
+    "pressure": 1012,
+    "humidity": 84,
+    "sea_level": 1012,
+    "grnd_level": 1011
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.94,
+    "deg": 63,
+    "gust": 2.6
+  },
+  "clouds": {
+    "all": 82
+  },
+  "dt": 1762343988,
+  "sys": {
+    "type": 1,
+    "id": 9308,
+    "country": "VN",
+    "sunrise": 1762297234,
+    "sunset": 1762337890
+  },
+  "timezone": 25200,
+  "id": 1591449,
+  "name": "Bắc Ninh",
+  "cod": 200
+}

@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.7667,
+    "lat": 19.8
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "mây cụm",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 20.21,
+    "feels_like": 20.48,
+    "temp_min": 20.21,
+    "temp_max": 20.21,
+    "pressure": 1012,
+    "humidity": 84,
+    "sea_level": 1012,
+    "grnd_level": 1011
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.8,
+    "deg": 76,
+    "gust": 0.96
+  },
+  "clouds": {
+    "all": 69
+  },
+  "dt": 1762343700,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297197,
+    "sunset": 1762338063
+  },
+  "timezone": 25200,
+  "id": 1566166,
+  "name": "Thanh Hóa",
+  "cod": 200
+}

@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 105.1458,
+    "lat": 9.1792
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "mây đen u ám",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 24.95,
+    "feels_like": 25.93,
+    "temp_min": 24.95,
+    "temp_max": 24.95,
+    "pressure": 1008,
+    "humidity": 93,
+    "sea_level": 1008,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.76,
+    "deg": 227,
+    "gust": 0.65
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1762343877,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296592,
+    "sunset": 1762338967
+  },
+  "timezone": 25200,
+  "id": 1586443,
+  "name": "Ca Mau",
+  "cod": 200
+}

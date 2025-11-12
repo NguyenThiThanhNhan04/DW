@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 103.9657,
+    "lat": 22.4997
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "mây rải rác",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 21.72,
+    "feels_like": 22.22,
+    "temp_min": 21.72,
+    "temp_max": 21.72,
+    "pressure": 1012,
+    "humidity": 87,
+    "sea_level": 1012,
+    "grnd_level": 948
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.92,
+    "deg": 191,
+    "gust": 0.79
+  },
+  "clouds": {
+    "all": 45
+  },
+  "dt": 1762343974,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762297835,
+    "sunset": 1762338289
+  },
+  "timezone": 25200,
+  "id": 1568043,
+  "name": "Lào Cai",
+  "cod": 200
+}

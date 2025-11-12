@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 108,
+    "lat": 14.35
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "mây cụm",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 21.26,
+    "feels_like": 21.92,
+    "temp_min": 21.26,
+    "temp_max": 21.26,
+    "pressure": 1009,
+    "humidity": 95,
+    "sea_level": 1009,
+    "grnd_level": 938
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.61,
+    "deg": 67,
+    "gust": 1.36
+  },
+  "clouds": {
+    "all": 72
+  },
+  "dt": 1762343973,
+  "sys": {
+    "country": "VN",
+    "sunrise": 1762296266,
+    "sunset": 1762337923
+  },
+  "timezone": 25200,
+  "id": 1578500,
+  "name": "Kon Tum",
+  "cod": 200
+}
