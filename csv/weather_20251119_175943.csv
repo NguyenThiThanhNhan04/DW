@@ -1,0 +1,5 @@
+﻿city,temperature,feels_like,humidity,pressure,wind_speed,clouds,description,timestamp,record_date
+Hà Nội,17,16.79,78,1025,2.36,100,mây đen u ám,2025-11-19 17:59:41.175976,2025-11-19
+Hải Phòng,15.95,15.25,63,1024,3.09,0,bầu trời quang đãng,2025-11-19 17:59:42.014299,2025-11-19
+Hà Giang,14.31,14.04,86,1025,0.29,95,mây đen u ám,2025-11-19 17:59:42.634202,2025-11-19
+Cao Bằng,14.25,13.87,82,1025,0.94,100,mây đen u ám,2025-11-19 17:59:43.286610,2025-11-19

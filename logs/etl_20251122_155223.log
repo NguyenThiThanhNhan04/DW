@@ -1,0 +1,5 @@
+2025-11-22 15:52:23 | INFO     | 🚀 Khởi động Weather Mart ETL
+2025-11-22 15:52:23 | INFO     | Source DB: weather_dw1 | Target DB: weather_mart
+2025-11-22 15:52:23 | ERROR    | ❌ LỖI CẤU HÌNH:
+2025-11-22 15:52:23 | ERROR    |    - DB_PASSWORD chưa được cấu hình (đang để trống)
+2025-11-22 15:52:23 | ERROR    | 👉 Vui lòng mở file và cập nhật thông tin DB ở phần 'THÔNG SỐ KẾT NỐI DB'

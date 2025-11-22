@@ -10,6 +10,91 @@
 [2025-11-11 17:37:31] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251111_173702.csv
 [2025-11-11 17:37:31] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
 [2025-11-11 17:37:31] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
-[2025-11-11 18:18:56] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file D:\DW\csv\weather_20251111_180742.csv
-[2025-11-11 18:18:56] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
-[2025-11-11 18:18:56] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 16:10:53] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_160839.csv
+[2025-11-19 16:12:06] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_160839.csv
+[2025-11-19 16:15:21] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_160839.csv
+[2025-11-19 16:16:02] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_160839.csv
+[2025-11-19 16:19:10] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_160839.csv
+[2025-11-19 16:24:11] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_162400.csv
+[2025-11-19 16:24:11] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 16:24:11] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 16:44:15] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_164402.csv
+[2025-11-19 16:44:15] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 16:44:15] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 17:06:09] [INFO] Tự động chọn file mới nhất: weather_20251119_164402.csv
+[2025-11-19 17:06:09] [INFO] Bắt đầu đọc file CSV: weather_20251119_164402.csv
+[2025-11-19 17:06:09] [INFO] Đang cố gắng kết nối DB...
+[2025-11-19 17:15:38] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_164402.csv
+[2025-11-19 17:15:38] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 17:15:38] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 17:39:37] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_173925.csv
+[2025-11-19 17:39:37] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 17:39:37] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 17:44:36] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_174413.csv
+[2025-11-19 17:44:36] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 17:44:36] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 17:53:26] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_175311.csv
+[2025-11-19 17:53:26] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 17:53:26] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 17:59:54] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_175943.csv
+[2025-11-19 17:59:54] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 17:59:54] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 18:10:20] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_181000.csv
+[2025-11-19 18:10:20] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 18:10:20] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 18:20:26] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_182014.csv
+[2025-11-19 18:20:26] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 18:20:26] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 18:36:36] [INFO] Tự động chọn file mới nhất: weather_20251119_183613.csv
+[2025-11-19 18:36:37] [INFO] Bắt đầu đọc file: weather_20251119_183613.csv
+[2025-11-19 18:36:37] [INFO] Đang kết nối DB Staging...
+[2025-11-19 18:36:37] Database connected successfully.
+[2025-11-19 18:36:37] [INFO] Insert 4 dòng vào weather_stage...
+[2025-11-19 18:36:37] [INFO] ✅ Đã load 4 bản ghi lên bảng weather_stage.
+[2025-11-19 18:36:37] [INFO] Ghi log hoạt động vào weather_stage_logs...
+[2025-11-19 18:36:37] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 18:36:37] Database connection closed.
+[2025-11-19 18:36:37] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 18:39:40] [INFO] Đã load 4 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_183741.csv
+[2025-11-19 18:39:40] [INFO] Đã ghi log 4 bản ghi vào weather_stage_logs
+[2025-11-19 18:39:40] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 19:00:53] [INFO] Đã load 42 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_190040.csv
+[2025-11-19 19:00:53] [INFO] Đã ghi log 42 bản ghi vào weather_stage_logs
+[2025-11-19 19:00:53] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 19:15:46] [INFO] Đã load 42 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_191507.csv
+[2025-11-19 19:15:46] [INFO] Đã ghi log 42 bản ghi vào weather_stage_logs
+[2025-11-19 19:15:46] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 19:18:55] [INFO] Đã load 42 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_191836.csv
+[2025-11-19 19:18:55] [INFO] Đã ghi log 42 bản ghi vào weather_stage_logs
+[2025-11-19 19:18:55] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 19:33:40] [INFO] Đã load 42 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_193303.csv
+[2025-11-19 19:33:40] [INFO] Đã ghi log 42 bản ghi vào weather_stage_logs
+[2025-11-19 19:33:40] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 19:58:36] [INFO] Đang đọc file CSV: weather_20251119_195819.csv
+[2025-11-19 19:58:36] [INFO] Đang kết nối Database...
+[2025-11-19 19:58:36] Database connected successfully.
+[2025-11-19 19:58:36] [INFO] Kiểm tra và tạo bảng weather_stage...
+[2025-11-19 19:58:36] [INFO] Xóa dữ liệu cũ (TRUNCATE)...
+[2025-11-19 19:58:37] [INFO] Chuẩn bị INSERT 42 dòng...
+[2025-11-19 19:58:37] [INFO] ✅ Đã load 42 bản ghi lên bảng weather_stage.
+[2025-11-19 19:58:37] [INFO] Tạo bảng log và ghi log chi tiết...
+[2025-11-19 19:58:37] [INFO] ✅ Đã ghi 42 bản ghi vào weather_stage_logs.
+[2025-11-19 19:58:37] Database connection closed.
+[2025-11-19 19:58:37] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 20:23:57] [INFO] Đang đọc file CSV: weather_20251119_195819.csv
+[2025-11-19 20:23:57] [INFO] Đang kết nối Database...
+[2025-11-19 20:23:57] Database connected successfully.
+[2025-11-19 20:23:57] [INFO] Kiểm tra và tạo bảng weather_stage...
+[2025-11-19 20:23:57] [INFO] Xóa dữ liệu cũ (TRUNCATE)...
+[2025-11-19 20:23:57] [INFO] Chuẩn bị INSERT 42 dòng...
+[2025-11-19 20:23:57] [INFO] ✅ Đã load 42 bản ghi lên bảng
+[2025-11-19 20:23:57] [INFO] Tạo bảng log và ghi log chi tiết...
+[2025-11-19 20:23:57] [INFO] ✅ Đã ghi 42 bản ghi vào weather_stage_logs.
+[2025-11-19 20:23:57] Database connection closed.
+[2025-11-19 20:23:57] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-19 20:39:38] [INFO] Đã load 42 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251119_203032.csv
+[2025-11-19 20:39:39] [INFO] Đã ghi log 42 bản ghi vào weather_stage_logs
+[2025-11-19 20:39:39] [INFO] Hoàn tất load dữ liệu thô vào weather_stage
+[2025-11-21 10:31:12] [INFO] Đã load 42 bản ghi lên bảng weather_stage từ file C:\Users\Phu\Documents\DW\csv\weather_20251121_102939.csv
+[2025-11-21 10:31:12] [INFO] Đã ghi log 42 bản ghi vào weather_stage_logs
+[2025-11-21 10:31:12] [INFO] Hoàn tất load dữ liệu thô vào weather_stage

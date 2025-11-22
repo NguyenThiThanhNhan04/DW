@@ -1,0 +1,7 @@
+2025-11-22 15:53:21 | INFO     | 🚀 Khởi động Weather Mart ETL
+2025-11-22 15:53:21 | INFO     | Source DB: weather_dw1 | Target DB: weather_mart
+2025-11-22 15:53:21 | WARNING  | ⚠️ DB_PASSWORD để trống - đang kết nối không có mật khẩu
+2025-11-22 15:53:21 | INFO     | 🔌 Đang kiểm tra kết nối tới weather_dw@localhost:3306...
+2025-11-22 15:53:21 | ERROR    | ❌ SAI THÔNG TIN ĐĂNG NHẬP!
+2025-11-22 15:53:21 | ERROR    |    User: 'weather_dw' | Password: (trống)
+2025-11-22 15:53:21 | ERROR    |    👉 Kiểm tra lại DB_USER và DB_PASSWORD trong file

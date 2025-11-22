@@ -1,0 +1,26 @@
+2025-11-22 15:55:12 | INFO     | 🚀 Khởi động Weather Mart ETL
+2025-11-22 15:55:12 | INFO     | Source DB: weather_dw1 | Target DB: weather_mart
+2025-11-22 15:55:12 | WARNING  | ⚠️ DB_PASSWORD để trống - đang kết nối không có mật khẩu
+2025-11-22 15:55:12 | INFO     | 🔌 Đang kiểm tra kết nối tới root@localhost:3306...
+2025-11-22 15:55:12 | INFO     | ✅ Kết nối DB thành công!
+2025-11-22 15:55:12 | INFO     | ============================================================
+2025-11-22 15:55:12 | INFO     | BẮT ĐẦU QUY TRÌNH ETL
+2025-11-22 15:55:12 | INFO     | Tổng số bước: 6
+2025-11-22 15:55:12 | INFO     | ============================================================
+2025-11-22 15:55:12 | INFO     | [1/6] Đang thực thi: Truncate dim_city
+2025-11-22 15:55:12 | ERROR    |     ❌ Lỗi: (1701, 'Cannot truncate a table referenced in a foreign key constraint (`weather_mart`.`fact_daily_weather_agg`, CONSTRAINT `fact_daily_weather_agg_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `weather_mart`.`dim_city` (`city_id`))')
+2025-11-22 15:55:12 | ERROR    | ❌ Lỗi MySQL: (1701, 'Cannot truncate a table referenced in a foreign key constraint (`weather_mart`.`fact_daily_weather_agg`, CONSTRAINT `fact_daily_weather_agg_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `weather_mart`.`dim_city` (`city_id`))')
+2025-11-22 15:55:12 | WARNING  | ⚠️ Đã ROLLBACK transaction
+2025-11-22 15:55:12 | INFO     | ============================================================
+2025-11-22 15:55:12 | INFO     | TỔNG KẾT QUY TRÌNH ETL
+2025-11-22 15:55:12 | INFO     | ============================================================
+2025-11-22 15:55:12 | INFO     | Tổng số bước      : 6
+2025-11-22 15:55:12 | INFO     | Thành công        : 0
+2025-11-22 15:55:12 | INFO     | Thất bại          : 1
+2025-11-22 15:55:12 | INFO     | Tổng rows affected: 0
+2025-11-22 15:55:12 | INFO     | Thời gian chạy    : 0.09 giây
+2025-11-22 15:55:12 | WARNING  | Danh sách lỗi:
+2025-11-22 15:55:12 | WARNING  |   - Truncate dim_city: (1701, 'Cannot truncate a table referenced in a foreign key constraint (`weather_mart`.`fact_daily_weather_agg`, CONSTRAINT `fact_daily_weather_agg_ibfk_2` FOREIGN KEY (`city_id`) REFERENCES `weather_mart`.`dim_city` (`city_id`))')
+2025-11-22 15:55:12 | INFO     | Trạng thái: FAILED ❌
+2025-11-22 15:55:12 | INFO     | File log: logs\etl_20251122_155512.log
+2025-11-22 15:55:12 | INFO     | ============================================================
